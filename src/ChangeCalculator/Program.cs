@@ -46,7 +46,7 @@ namespace ChangeCalculator
                     continue;
                 }
 
-                if (amount <= Decimal.Zero)
+                if (amount <= decimal.Zero)
                 {
                     Console.WriteLine("Amount must be greater than 0");
                     continue;
